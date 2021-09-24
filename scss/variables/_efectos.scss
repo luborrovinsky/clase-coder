@@ -1,0 +1,78 @@
+.efecto {
+    height: 50vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hijo {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+
+    transition: all 2s ease-in-out;
+
+    animation-name: mundo;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 4s;
+
+    /*transform: skew(10º);*/
+    /*transform: translate(-20px, 80px);*/
+    /*transform: translate(45deg);*/
+}
+
+.hijo:hover {
+    width: 200px;
+    scale: (2);
+}
+
+@keyframes mundo {
+    0% {
+        width: 300px;
+        background-color: red;
+    }
+
+    50% {
+        width: 500px;
+        background-color: orangered;
+    }
+
+    100% {
+        width: 700px;
+        background-color: yellow;
+    }
+}
+
+.flex-container {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap-reverse;
+    display: flex;
+    color: rgb(255, 255, 255)
+}
+
+.flex-container ul li{
+    background-color: orangered;
+    padding: 5px;
+    margin: 5px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.d-flex {
+    padding: 50px;
+    justify-content: left;
+}
