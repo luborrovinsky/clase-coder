@@ -43,6 +43,13 @@ thead {
 .imagenes {
   text-align: center; }
 
+.carrousel-inner img {
+  width: 100%;
+  max-height: 460px; }
+
+.carrousel-inner {
+  height: 400px; }
+
 .efecto {
   height: 50vh;
   display: flex;
@@ -52,7 +59,7 @@ thead {
 .hijo {
   width: 50px;
   height: 50px;
-  background-color: red;
+  background-color: #ff8278;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -75,13 +82,13 @@ thead {
 @keyframes mundo {
   0% {
     width: 300px;
-    background-color: red; }
+    background-color: #ff8278; }
   50% {
     width: 500px;
-    background-color: orangered; }
+    background-color: #fc5b4f; }
   100% {
     width: 700px;
-    background-color: yellow; } }
+    background-color: orangered; } }
 
 .flex-container {
   background-color: white;

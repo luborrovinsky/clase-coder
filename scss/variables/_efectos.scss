@@ -1,4 +1,11 @@
-$carousel-control-width:             15%;
+.carrousel-inner img{
+    width: 100%;
+    max-height: 460px;
+    }
+    
+.carrousel-inner{
+    height: 400px
+    }
 
 
 .efecto {
@@ -12,7 +19,7 @@ $carousel-control-width:             15%;
 .hijo {
     width: 50px;
     height: 50px;
-    background-color: red;
+    background-color: rgb(255, 130, 120);
     
     display: flex;  
     align-items: center;
@@ -41,17 +48,17 @@ $carousel-control-width:             15%;
 @keyframes mundo {
     0% {
         width: 300px;
-        background-color: red;
+        background-color: rgb(255, 130, 120);
     }
 
     50% {
         width: 500px;
-        background-color: orangered;
+        background-color: rgb(252, 91, 79);
     }
 
     100% {
         width: 700px;
-        background-color: yellow;
+        background-color: orangered;
     }
 }
 
