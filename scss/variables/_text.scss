@@ -1,14 +1,13 @@
 h1 {
-    color: orangered;
+    color: rgb(156, 64, 30);
 }
 
 h2 {
-    color: orangered;
-    margin: 30px;
+    color: rgb(156, 64, 30);
 }
 
 h3 {
-    color: orangered;
+    color: rgb(156, 64, 30);
 }
 
 .texto {
@@ -22,4 +21,9 @@ h3 {
 
 thead {
     color: #444442;
+}
+
+.titulo {
+    text-align: center;
+    padding: 10px;
 }

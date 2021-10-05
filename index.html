@@ -43,6 +43,10 @@
               <li class="nav-item">
                 <a class="nav-link active" aria-current="" href="index.html">Home</a>
               </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="pages/nosotros.html">Nosotros</a>
+              </li>
               
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -56,13 +60,7 @@
                 </ul>
               </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="pages/nosotros.html">Nosotros</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="pages/destacadas.html">Destacadas</a>
-              </li>
+              
 
               <li class="nav-item">
                 <a class="nav-link" href="pages/consejos.html">Consejos</a>
@@ -83,95 +81,135 @@
         <img src="img/logo.png" alt="logo">
       </div>
 
-      
     </header>
 
     <main id="main">
 
-        <div class="container">
-          <div class="row row-cols-2">
-            <div class="col">A LA CREMA es una biblioteca virtual de recetas simples, variadas y deliciosas</div>
-            <div class="col"><img src="img/hamburguesa-vector.jpg" alt="Buñuelos"></div>
-            <div class="col"><img src="img/cupcake-vector.jpg" alt="Buñuelos"></div>
-            <div class="col">Desde A LA CREMA nos comprometemos a llevarte ideas sanas, variadas y ricas</div>
-            <div class="col">Dulces, saladas, veganas o sin gluten, con colores y sabores, son nuestras recetas. Conocelas!</div>
-            <div class="col"><img src="img/hamburguesa-vector.jpg" alt="Buñuelos"></div>
-          </div>
-        </div>
-
-          
-
+      <section>
+        <h3 class="titulo">A LA CREMA es una biblioteca virtual de recetas simples, variadas y deliciosas</h3>
+        <h3 class="titulo"> Dulces, saladas, veganas o sin gluten, con colores y sabores, son nuestras recetas</h3>
       </section>
+
+      <div class="efecto">
+        <div class="hijo">
+        ¡CONOCELAS!
+        </div>
+      </div>
+
+        
+        <section class="titulo">
+
+          <h1 class="titulo">Las recetas más buscadas de la semana</h1>
+
+          <div class="titulo">
+
+            <div class="row justify-content-center text-center">
+              <div class="col-md-3 col-sm-6 col-">
+                <a> <h2>Budín de naranja y zanahoria</h2><img src="img/cupcake-vector.jpg" alt="Buñuelos"></a>
+                <p>Dulce</p>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <a> <h2>Buñuelos de espinaca</h2><img src="img/hamburguesa-vector.jpg" alt="Buñuelos"></a>
+                <p>Salada</p>
+              </div>
+            </div> 
+
+            <div class="row justify-content-center text-center">
+              <div class="col-md-3 col-sm-6">
+                <a> <h2>Mayonesa de zanahoria</h2><img src="img/cupcake-vector.jpg" alt="Buñuelos"></a>
+                <p>Vegana</p>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <a> <h2>Hamburguesas de lentejas</h2> <img src="img/hamburguesa-vector.jpg" alt="Buñuelos"></a>
+                <p>Sin gluten</p>
+              </div>
+            </div>
+          </div>
+  
+        </section>
+
+        <section class="video">
+          <h2 class="titulo">Cómo hacemos nuestras mejores recetas</h2>
+          <iframe class="video" width="400" height="215" src="https://www.youtube.com/embed/T_XTFz0r1Ew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+
+        <h2 class="titulo">Nuestros seguidores nos cuentan sus recetas favoritas</h2>
+
+        <section>
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/comidaa.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                  <h3>Josefina - Estudiante</h3>
+                  <p>La receta de hamburguesas de lentejas me salvó la vida. Son riquísimas, súper fáciles de hacer y a mi familia le encanta</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/comidaa.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                  <h3>Santiago - Programador</h3>
+                  <p>Buenísima la receta de beñuelos de espinaca. La verdad que me cuesta comer verdura y es una manera práctica y rica de incorporarla en mi dieta</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/comidaa.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                  <h3>Mariana</h3>
+                  <p>El budín de naranja y zanahoria es exquisito. Nunca hubiese imaginado poder incorporar una verdura en una preparación dulce</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+
 
     </main>
 
     <footer id="footer">
 
-      <div id="carousel-index" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carousel-index" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carousel-index" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carousel-index" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="img/hamburguesa-vector.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="img/hamburguesa-vector.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="img/hamburguesa-vector.jpg" class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-index" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carousel-index" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-
-      
-
-      <div class="efecto">
-        <div class="hijo">
-        LAS MEJORES RECETAS
-        </div>
-      </div>
 
       <!--RRSS y sus iconos-->
-      <h2 id="about">Seguinos</h2>
 
       <div class="btn-group">
 
         <!-- Facebook -->
-        <a class="btn btn-primary" style="background-color: #3b5998;" href="https://www.facebook.com/" role="button">
+        <a id="about" class="btn btn-primary" style="background-color: #3b5998;" href="https://www.facebook.com/" role="button">
         <i class="bi bi-facebook"></i>
         </a>
 
         <!-- Instagram -->
-        <a class="btn btn-primary" style="background-color: #cf4c74;" href="https://www.instagram.com/?hl=es-la" role="button">
+        <a id="about" class="btn btn-primary" style="background-color: #cf4c74;" href="https://www.instagram.com/?hl=es-la" role="button">
         <i class="bi bi-instagram"></i>
         </a>
 
         <!-- Youtube -->
-        <a class="btn btn-primary" style="background-color: #ed302f;" href="https://www.youtube.com/" role="button">
+        <a id="about" class="btn btn-primary" style="background-color: #ed302f;" href="https://www.youtube.com/" role="button">
         <i class="bi bi-youtube"></i>
         </a>
 
         <!-- Twitter -->
-        <a class="btn btn-primary" style="background-color: #55acee;" href="https://twitter.com/?lang=es" role="button">
+        <a id="about" class="btn btn-primary" style="background-color: #55acee;" href="https://twitter.com/?lang=es" role="button">
         <i class="bi bi-twitter"></i>
         </a>
 
       </div>
 
-      <h2>Suscribite</h2>
+      <div class="efecto">
+        <div class="hijo">
+        ¡SUSCRIBITE!
+        </div>
+      </div>
 
-      <form id="form-submit">
+      <form id="form-submit-auto">
           <div class="mb-3">
           <label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
           <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Escribe tu mail">
