@@ -2,10 +2,6 @@
     padding: 400px;
 }
 
-.carousel-inner{
-    height: 400px;
-    min-height: 500px;
-}
 
 .efecto {
     height: 50vh;
@@ -20,10 +16,6 @@
     justify-content: left;
 }
 
-.mb-3 {
-    margin: 30px;
-    width: 400px;
-}
 
 
 .consejos {
@@ -36,4 +28,9 @@ table, th, td {
     align-items: center;
   }
 
+  #form-submit-auto {
+      align-items: center;
+      margin: 30px;
+      width: 400px;
+  }
 
