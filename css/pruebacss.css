@@ -1,17 +1,17 @@
-body {
-  background-image: url(../img/plantilla.jpg); }
-
 header {
   grid-area: header;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center; }
+  background-position: center;
+  background-image: url(../img/plantilla.jpg); }
 
 main {
+  background-image: url(../img/plantilla.jpg);
   padding: 10px; }
 
 footer {
-  padding: 10px; }
+  padding: 10px;
+  background-color: #ff8278; }
 
 h1 {
   color: #9c401e; }
@@ -20,6 +20,9 @@ h2 {
   color: #9c401e; }
 
 h3 {
+  color: #9c401e; }
+
+h4 {
   color: #9c401e; }
 
 .texto {
