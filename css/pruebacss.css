@@ -136,7 +136,8 @@ thead {
 
 table, th, td {
   border: 1px solid black;
-  align-items: center; }
+  align-items: center;
+  justify-content: center; }
 
 #form-submit-auto {
   align-items: center;
