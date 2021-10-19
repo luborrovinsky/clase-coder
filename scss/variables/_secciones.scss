@@ -2,7 +2,6 @@
     padding: 400px;
 }
 
-
 .efecto {
     height: 50vh;
     display: flex;
@@ -10,13 +9,10 @@
     justify-content: center;
 }
 
-
 .d-flex {
     padding: 50px;
     justify-content: left;
 }
-
-
 
 .consejos {
     margin: 30px;
@@ -27,11 +23,12 @@ table, th, td {
     border: 1px solid black;
     align-items: center;
     justify-content: center;
+    text-align: center;
   }
 
-  #form-submit-auto {
-      align-items: center;
-      margin: 30px;
-      width: 400px;
+  .btn-group {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
   }
 

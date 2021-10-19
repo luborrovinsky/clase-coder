@@ -1,17 +1,18 @@
+body {
+  background-image: url(../img/plantilla.jpg); }
+
 header {
   grid-area: header;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  background-image: url(../img/plantilla.jpg); }
+  background-position: center; }
 
 main {
   background-image: url(../img/plantilla.jpg);
   padding: 10px; }
 
 footer {
-  padding: 10px;
-  background-color: #ff8278; }
+  padding: 10px; }
 
 h1 {
   color: #9c401e; }
@@ -137,9 +138,10 @@ thead {
 table, th, td {
   border: 1px solid black;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  text-align: center; }
 
-#form-submit-auto {
+.btn-group {
+  text-align: center;
   align-items: center;
-  margin: 30px;
-  width: 400px; }
+  justify-content: center; }
