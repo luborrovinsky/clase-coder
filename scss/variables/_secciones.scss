@@ -19,16 +19,51 @@
     padding: 50px;
 }
 
+.nosotros {
+    margin: 30px;
+    padding: 50px;
+}
+
 table, th, td {
     border: 1px solid black;
     align-items: center;
     justify-content: center;
     text-align: center;
-  }
+    margin-left: auto;
+    margin-right:auto;
+}
 
-  .btn-group {
+
+.btn-group {
     text-align: center;
     align-items: center;
     justify-content: center;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.carousel {
+    height: auto;
+}
+  
+.carousel-inner {
+    height: 100%;
   }
+  
+.carousel-item {
+    height: auto;
+    min-height:500px;
+    background: cover;
+    background-size: cover;
+}
+
+.carousel-texto {
+  color: blanchedalmond; 
+}
+
+.carousel-caption {
+  padding-bottom: 150px;
+}
+
+
 

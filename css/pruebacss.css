@@ -8,23 +8,22 @@ header {
   background-position: center; }
 
 main {
-  background-image: url(../img/plantilla.jpg);
   padding: 10px; }
 
 footer {
   padding: 10px; }
 
 h1 {
-  color: #9c401e; }
+  color: #f152bc; }
 
 h2 {
-  color: #9c401e; }
+  color: #8400ff; }
 
 h3 {
-  color: #9c401e; }
+  color: #8400ff; }
 
 h4 {
-  color: #9c401e; }
+  color: #f152bc; }
 
 .texto {
   font-size: 20px;
@@ -59,42 +58,110 @@ thead {
 .col {
   align-items: center; }
 
-.efecto {
-  height: 50vh;
-  display: flex;
-  align-items: center;
-  justify-content: center; }
+@media only screen and (min-width: 320px) {
+  .efecto {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .hijo {
+    width: 50px;
+    height: 50px;
+    background-color: #ff8278;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    transition: all 2s ease-in-out;
+    animation-name: mundo;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 4s; }
+  .hijo:hover {
+    width: 200px;
+    scale: 2; }
+  @keyframes mundo {
+    0% {
+      width: 100px;
+      background-color: #ff8278; }
+    50% {
+      width: 200px;
+      background-color: #f152bc; }
+    100% {
+      width: 300px;
+      background-color: #8400ff; } } }
 
-.hijo {
-  width: 50px;
-  height: 50px;
-  background-color: #ff8278;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  color: white;
-  font-size: 20px;
-  transition: all 2s ease-in-out;
-  animation-name: mundo;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in;
-  animation-duration: 4s; }
+@media only screen and (min-width: 480px) {
+  .efecto {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .hijo {
+    width: 50px;
+    height: 50px;
+    background-color: #ff8278;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    transition: all 2s ease-in-out;
+    animation-name: mundo;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 4s; }
+  .hijo:hover {
+    width: 200px;
+    scale: 2; }
+  @keyframes mundo {
+    0% {
+      width: 300px;
+      background-color: #ff8278; }
+    50% {
+      width: 400px;
+      background-color: #f152bc; }
+    100% {
+      width: 500px;
+      background-color: #8400ff; } } }
 
-.hijo:hover {
-  width: 200px;
-  scale: 2; }
-
-@keyframes mundo {
-  0% {
-    width: 300px;
-    background-color: #ff8278; }
-  50% {
-    width: 350px;
-    background-color: #ff8279; }
-  100% {
-    width: 400px;
-    background-color: #fc5b4f; } }
+@media only screen and (min-width: 769px) {
+  .efecto {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .hijo {
+    width: 50px;
+    height: 50px;
+    background-color: #ff8278;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    transition: all 2s ease-in-out;
+    animation-name: mundo;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 4s; }
+  .hijo:hover {
+    width: 200px;
+    scale: 2; }
+  @keyframes mundo {
+    0% {
+      width: 500px;
+      background-color: #ff8278; }
+    50% {
+      width: 600px;
+      background-color: #f152bc; }
+    100% {
+      width: 700px;
+      background-color: #8400ff; } } }
 
 .flex-container {
   background-color: white;
@@ -135,13 +202,39 @@ thead {
   margin: 30px;
   padding: 50px; }
 
+.nosotros {
+  margin: 30px;
+  padding: 50px; }
+
 table, th, td {
   border: 1px solid black;
   align-items: center;
   justify-content: center;
-  text-align: center; }
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto; }
 
 .btn-group {
   text-align: center;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto; }
+
+.carousel {
+  height: auto; }
+
+.carousel-inner {
+  height: 100%; }
+
+.carousel-item {
+  height: auto;
+  min-height: 500px;
+  background: cover;
+  background-size: cover; }
+
+.carousel-texto {
+  color: blanchedalmond; }
+
+.carousel-caption {
+  padding-bottom: 150px; }
