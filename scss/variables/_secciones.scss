@@ -35,11 +35,21 @@ table, th, td {
 
 
 .btn-group {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: left; }
+    
+    .btn-group li {
+    width: 100%;   
+    float: left;
     text-align: center;
-    align-items: center;
+    display: flex;
     justify-content: center;
-    margin-left: auto;
-    margin-right:auto;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-right: 20px;  
 }
 
 .carousel {
